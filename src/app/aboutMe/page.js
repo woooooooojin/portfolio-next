@@ -1,4 +1,3 @@
-import Home from "../page";
 
 export default function aboutMe() {
   return (
