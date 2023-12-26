@@ -12,7 +12,7 @@ export default function DarkModeToggleBtn() {
 
   return (
     <>
-        <button onClick={onChangeBtn} type='button' className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+        <button onClick={onChangeBtn} type='button' className="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 dark:hover:bg-gray-300 rounded text-base mt-4 md:mt-0">
            
             {/* lightmode */}
             <svg className='visible dark:invisible dark:w-0 dark:h-0 h-5 w-5 text-orange-500' data-slot="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
