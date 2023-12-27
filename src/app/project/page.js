@@ -1,28 +1,12 @@
-import { getPosts } from "@/api/notion"
 
-export default function Project({posts}) {
+
+export default function Project({}) {
   return (
     <>  
       <div>
-        {
-          posts.map((post) => (
-            <div key={post.id}>
-              <h2>{post.title}</h2>
-            </div>
-
-          ))
-        }
+        project
       </div>
     </>
   )
 }
-
-
-
-
-
-// Project.getInitialProps = async ()=>{
-//   const posts = await getPosts()
-//   return {posts}
-// }
 

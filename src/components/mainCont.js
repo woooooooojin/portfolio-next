@@ -12,7 +12,7 @@ export default function MainCont() {
                 </h1>
                 <p className="mb-8 leading-relaxed dark:text-gray-700">asdfasdfasdfasdfasdfasdfasdlkfja;sldkfja;sldkfjasldkfjsldkfjsldkfj</p>
                 <div className="flex justify-center">
-                    <Link href='/project' className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                    <Link href='/aboutMe' className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                         Read More
                     </Link>
                 </div>
