@@ -1,4 +1,4 @@
-
+import ProjectData from "@/pages/projectData";
 
 export default function Project({}) {
   return (
@@ -9,4 +9,6 @@ export default function Project({}) {
     </>
   )
 }
+
+
 
